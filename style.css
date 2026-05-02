@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  background: #1e1e2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #fff;
+  padding: 25px;
+  width: 300px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.field {
+  margin: 15px 0;
+}
+
+.field input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.password-box {
+  position: relative;
+}
+
+.password-box button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  padding: 5px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: #4a6cf7;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #2f4de0;
+}

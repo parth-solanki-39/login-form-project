@@ -1,56 +1,60 @@
 body {
   margin: 0;
+  font-family: Arial, sans-serif;
   height: 100vh;
-  font-family: sans-serif;
-  background: #1e1e2f;
+  background: linear-gradient(135deg, #667eea, #764ba2);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.card {
-  background: #fff;
-  padding: 25px;
-  width: 300px;
+.login-box {
+  background: white;
+  padding: 30px;
   border-radius: 12px;
+  width: 300px;
   text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
-.field {
-  margin: 15px 0;
+.login-box h2 {
+  margin-bottom: 20px;
 }
 
-.field input {
+input {
   width: 100%;
   padding: 10px;
-  border-radius: 6px;
+  margin: 10px 0;
   border: 1px solid #ccc;
+  border-radius: 8px;
 }
 
-.password-box {
-  position: relative;
-}
-
-.password-box button {
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  padding: 5px;
-  border: none;
-  background: #ddd;
-  cursor: pointer;
-}
-
-.login-btn {
+/* Button */
+button {
   width: 100%;
   padding: 10px;
-  background: #4a6cf7;
+  background: #667eea;
   border: none;
   color: white;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-.login-btn:hover {
-  background: #2f4de0;
+/* Hover effect */
+button:hover {
+  background: #5a67d8;
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Click effect */
+button:active {
+  transform: scale(0.95);
+}
+
+#message {
+  margin-top: 10px;
+  font-size: 14px;
 }
